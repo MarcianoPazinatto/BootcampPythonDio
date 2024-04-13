@@ -1,4 +1,4 @@
-from sistema_bancario_v2_poo.model.cliente import Cliente
+from model.cliente import Cliente
 
 
 class PessoaFisica(Cliente):

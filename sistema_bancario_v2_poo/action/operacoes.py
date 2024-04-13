@@ -1,9 +1,9 @@
 import textwrap
 
-from sistema_bancario_v2_poo.model.conta_corrente import ContaCorrente
-from sistema_bancario_v2_poo.model.deposito import Deposito
-from sistema_bancario_v2_poo.action.pessoa_fisica import PessoaFisica
-from sistema_bancario_v2_poo.action.saque import Saque
+from model.conta_corrente import ContaCorrente
+from model.deposito import Deposito
+from action.pessoa_fisica import PessoaFisica
+from action.saque import Saque
 
 
 def filtrar_cliente(cpf, clientes):
@@ -91,13 +91,13 @@ def criar_cliente(clientes):
 
     nome = input("Informe o nome completo: ")
     data_nascimento = input("Informe a data de nascimento (dd-mm-aaaa): ")
-    endereco = input("Informe o endereço (logradouro, nro - bairro - cidade/sigla estado): ")
+    endereco = input("Informe o endereço (rua, nº - bairro - cidade - sigla estado): ")
 
     cliente = PessoaFisica(nome=nome, data_de_nascimento=data_nascimento, cpf=cpf, endereco=endereco)
 
     clientes.append(cliente)
 
-    print("\n=== Cliente criado com sucesso! ===")
+    print("\n=== Cliente cadastrado com sucesso! ===")
 
 
 def criar_conta(numero_conta, clientes, contas):

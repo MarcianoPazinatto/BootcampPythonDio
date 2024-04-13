@@ -1,6 +1,6 @@
 import textwrap
 
-from sistema_bancario_v2_poo.action.operacoes import criar_cliente, criar_conta, listar_contas, depositar, sacar, \
+from action.operacoes import criar_cliente, criar_conta, listar_contas, depositar, sacar, \
     exibir_extrato
 
 
@@ -9,8 +9,8 @@ def menu():
     [1]\tDepositar
     [2]\tSacar
     [3]\tExtrato
-    [4]\tNova conta
     [5]\tNovo usuário 
+    [4]\tNova conta
     [6]\tListar contas
     [0]\tSair  
     """

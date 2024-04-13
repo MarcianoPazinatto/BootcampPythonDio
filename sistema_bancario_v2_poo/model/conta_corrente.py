@@ -1,5 +1,5 @@
-from sistema_bancario_v2_poo.model.conta import Conta
-from sistema_bancario_v2_poo.action.saque import Saque
+from model.conta import Conta
+from action.saque import Saque
 
 
 class ContaCorrente(Conta):

@@ -1,4 +1,4 @@
-from sistema_bancario_v2_poo.model.historico_cliente import HistoricoCliente
+from model.historico_cliente import HistoricoCliente
 
 
 class Conta:

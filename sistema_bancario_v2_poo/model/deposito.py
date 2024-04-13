@@ -1,4 +1,4 @@
-from sistema_bancario_v2_poo.interface.interface_transacao import ITransacao
+from interface.interface_transacao import ITransacao
 
 
 class Deposito(ITransacao):
